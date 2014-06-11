@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1416ED6194869D100FD92E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416ED5194869D100FD92E6 /* Foundation.framework */; };
+		D1416ED8194869D100FD92E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416ED7194869D100FD92E6 /* CoreGraphics.framework */; };
+		D1416EDA194869D100FD92E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416ED9194869D100FD92E6 /* UIKit.framework */; };
+		D1416EE0194869D100FD92E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1416EDE194869D100FD92E6 /* InfoPlist.strings */; };
+		D1416EE2194869D100FD92E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1416EE1194869D100FD92E6 /* main.m */; };
+		D1416EE6194869D100FD92E6 /* FLWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1416EE5194869D100FD92E6 /* FLWAppDelegate.m */; };
+		D1416EE9194869D100FD92E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1416EE7194869D100FD92E6 /* Main.storyboard */; };
+		D1416EEC194869D100FD92E6 /* FLWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1416EEB194869D100FD92E6 /* FLWMasterViewController.m */; };
+		D1416EEF194869D100FD92E6 /* FLWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1416EEE194869D100FD92E6 /* FLWDetailViewController.m */; };
+		D1416EF1194869D100FD92E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1416EF0194869D100FD92E6 /* Images.xcassets */; };
+		D1416EF8194869D100FD92E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416EF7194869D100FD92E6 /* XCTest.framework */; };
+		D1416EF9194869D100FD92E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416ED5194869D100FD92E6 /* Foundation.framework */; };
+		D1416EFA194869D100FD92E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416ED9194869D100FD92E6 /* UIKit.framework */; };
+		D1416F02194869D100FD92E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1416F00194869D100FD92E6 /* InfoPlist.strings */; };
+		D1416F04194869D100FD92E6 /* FLWPhotoPickDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1416F03194869D100FD92E6 /* FLWPhotoPickDemoTests.m */; };
+		D1416F4619486B7900FD92E6 /* libFLWPhotoReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416F4519486B7900FD92E6 /* libFLWPhotoReader.a */; };
+		D1416F4819486BA000FD92E6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1416F4719486BA000FD92E6 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1416EFB194869D100FD92E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1416ECA194869D100FD92E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1416ED1194869D100FD92E6;
+			remoteInfo = FLWPhotoPickDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1416ED2194869D100FD92E6 /* FLWPhotoPickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLWPhotoPickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1416ED5194869D100FD92E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1416ED7194869D100FD92E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1416ED9194869D100FD92E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1416EDD194869D100FD92E6 /* FLWPhotoPickDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLWPhotoPickDemo-Info.plist"; sourceTree = "<group>"; };
+		D1416EDF194869D100FD92E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1416EE1194869D100FD92E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1416EE3194869D100FD92E6 /* FLWPhotoPickDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLWPhotoPickDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D1416EE4194869D100FD92E6 /* FLWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLWAppDelegate.h; sourceTree = "<group>"; };
+		D1416EE5194869D100FD92E6 /* FLWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLWAppDelegate.m; sourceTree = "<group>"; };
+		D1416EE8194869D100FD92E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1416EEA194869D100FD92E6 /* FLWMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLWMasterViewController.h; sourceTree = "<group>"; };
+		D1416EEB194869D100FD92E6 /* FLWMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLWMasterViewController.m; sourceTree = "<group>"; };
+		D1416EED194869D100FD92E6 /* FLWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLWDetailViewController.h; sourceTree = "<group>"; };
+		D1416EEE194869D100FD92E6 /* FLWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLWDetailViewController.m; sourceTree = "<group>"; };
+		D1416EF0194869D100FD92E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1416EF6194869D100FD92E6 /* FLWPhotoPickDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLWPhotoPickDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1416EF7194869D100FD92E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D1416EFF194869D100FD92E6 /* FLWPhotoPickDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLWPhotoPickDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D1416F01194869D100FD92E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1416F03194869D100FD92E6 /* FLWPhotoPickDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLWPhotoPickDemoTests.m; sourceTree = "<group>"; };
+		D1416F4419486B7900FD92E6 /* FLWPhotoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLWPhotoReader.h; sourceTree = "<group>"; };
+		D1416F4519486B7900FD92E6 /* libFLWPhotoReader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFLWPhotoReader.a; sourceTree = "<group>"; };
+		D1416F4719486BA000FD92E6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1416ECF194869D100FD92E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1416F4819486BA000FD92E6 /* AssetsLibrary.framework in Frameworks */,
+				D1416ED8194869D100FD92E6 /* CoreGraphics.framework in Frameworks */,
+				D1416EDA194869D100FD92E6 /* UIKit.framework in Frameworks */,
+				D1416ED6194869D100FD92E6 /* Foundation.framework in Frameworks */,
+				D1416F4619486B7900FD92E6 /* libFLWPhotoReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1416EF3194869D100FD92E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1416EF8194869D100FD92E6 /* XCTest.framework in Frameworks */,
+				D1416EFA194869D100FD92E6 /* UIKit.framework in Frameworks */,
+				D1416EF9194869D100FD92E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1416EC9194869D100FD92E6 = {
+			isa = PBXGroup;
+			children = (
+				D1416EDB194869D100FD92E6 /* FLWPhotoPickDemo */,
+				D1416EFD194869D100FD92E6 /* FLWPhotoPickDemoTests */,
+				D1416ED4194869D100FD92E6 /* Frameworks */,
+				D1416ED3194869D100FD92E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1416ED3194869D100FD92E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1416ED2194869D100FD92E6 /* FLWPhotoPickDemo.app */,
+				D1416EF6194869D100FD92E6 /* FLWPhotoPickDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1416ED4194869D100FD92E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1416F4719486BA000FD92E6 /* AssetsLibrary.framework */,
+				D1416ED5194869D100FD92E6 /* Foundation.framework */,
+				D1416ED7194869D100FD92E6 /* CoreGraphics.framework */,
+				D1416ED9194869D100FD92E6 /* UIKit.framework */,
+				D1416EF7194869D100FD92E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1416EDB194869D100FD92E6 /* FLWPhotoPickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D1416EE4194869D100FD92E6 /* FLWAppDelegate.h */,
+				D1416EE5194869D100FD92E6 /* FLWAppDelegate.m */,
+				D1416EE7194869D100FD92E6 /* Main.storyboard */,
+				D1416EEA194869D100FD92E6 /* FLWMasterViewController.h */,
+				D1416EEB194869D100FD92E6 /* FLWMasterViewController.m */,
+				D1416EED194869D100FD92E6 /* FLWDetailViewController.h */,
+				D1416EEE194869D100FD92E6 /* FLWDetailViewController.m */,
+				D1416F4319486B7900FD92E6 /* FLWPhotoReader */,
+				D1416EF0194869D100FD92E6 /* Images.xcassets */,
+				D1416EDC194869D100FD92E6 /* Supporting Files */,
+			);
+			path = FLWPhotoPickDemo;
+			sourceTree = "<group>";
+		};
+		D1416EDC194869D100FD92E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1416EDD194869D100FD92E6 /* FLWPhotoPickDemo-Info.plist */,
+				D1416EDE194869D100FD92E6 /* InfoPlist.strings */,
+				D1416EE1194869D100FD92E6 /* main.m */,
+				D1416EE3194869D100FD92E6 /* FLWPhotoPickDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1416EFD194869D100FD92E6 /* FLWPhotoPickDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1416F03194869D100FD92E6 /* FLWPhotoPickDemoTests.m */,
+				D1416EFE194869D100FD92E6 /* Supporting Files */,
+			);
+			path = FLWPhotoPickDemoTests;
+			sourceTree = "<group>";
+		};
+		D1416EFE194869D100FD92E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1416EFF194869D100FD92E6 /* FLWPhotoPickDemoTests-Info.plist */,
+				D1416F00194869D100FD92E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1416F4319486B7900FD92E6 /* FLWPhotoReader */ = {
+			isa = PBXGroup;
+			children = (
+				D1416F4419486B7900FD92E6 /* FLWPhotoReader.h */,
+				D1416F4519486B7900FD92E6 /* libFLWPhotoReader.a */,
+			);
+			path = FLWPhotoReader;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1416ED1194869D100FD92E6 /* FLWPhotoPickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1416F07194869D100FD92E6 /* Build configuration list for PBXNativeTarget "FLWPhotoPickDemo" */;
+			buildPhases = (
+				D1416ECE194869D100FD92E6 /* Sources */,
+				D1416ECF194869D100FD92E6 /* Frameworks */,
+				D1416ED0194869D100FD92E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLWPhotoPickDemo;
+			productName = FLWPhotoPickDemo;
+			productReference = D1416ED2194869D100FD92E6 /* FLWPhotoPickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1416EF5194869D100FD92E6 /* FLWPhotoPickDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1416F0A194869D100FD92E6 /* Build configuration list for PBXNativeTarget "FLWPhotoPickDemoTests" */;
+			buildPhases = (
+				D1416EF2194869D100FD92E6 /* Sources */,
+				D1416EF3194869D100FD92E6 /* Frameworks */,
+				D1416EF4194869D100FD92E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1416EFC194869D100FD92E6 /* PBXTargetDependency */,
+			);
+			name = FLWPhotoPickDemoTests;
+			productName = FLWPhotoPickDemoTests;
+			productReference = D1416EF6194869D100FD92E6 /* FLWPhotoPickDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1416ECA194869D100FD92E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FLW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Liuwei.fan;
+				TargetAttributes = {
+					D1416EF5194869D100FD92E6 = {
+						TestTargetID = D1416ED1194869D100FD92E6;
+					};
+				};
+			};
+			buildConfigurationList = D1416ECD194869D100FD92E6 /* Build configuration list for PBXProject "FLWPhotoPickDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1416EC9194869D100FD92E6;
+			productRefGroup = D1416ED3194869D100FD92E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1416ED1194869D100FD92E6 /* FLWPhotoPickDemo */,
+				D1416EF5194869D100FD92E6 /* FLWPhotoPickDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1416ED0194869D100FD92E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1416EF1194869D100FD92E6 /* Images.xcassets in Resources */,
+				D1416EE0194869D100FD92E6 /* InfoPlist.strings in Resources */,
+				D1416EE9194869D100FD92E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1416EF4194869D100FD92E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1416F02194869D100FD92E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1416ECE194869D100FD92E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1416EE6194869D100FD92E6 /* FLWAppDelegate.m in Sources */,
+				D1416EEC194869D100FD92E6 /* FLWMasterViewController.m in Sources */,
+				D1416EE2194869D100FD92E6 /* main.m in Sources */,
+				D1416EEF194869D100FD92E6 /* FLWDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1416EF2194869D100FD92E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1416F04194869D100FD92E6 /* FLWPhotoPickDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1416EFC194869D100FD92E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1416ED1194869D100FD92E6 /* FLWPhotoPickDemo */;
+			targetProxy = D1416EFB194869D100FD92E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1416EDE194869D100FD92E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1416EDF194869D100FD92E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1416EE7194869D100FD92E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1416EE8194869D100FD92E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1416F00194869D100FD92E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1416F01194869D100FD92E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1416F05194869D100FD92E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1416F06194869D100FD92E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1416F08194869D100FD92E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLWPhotoPickDemo/FLWPhotoPickDemo-Prefix.pch";
+				INFOPLIST_FILE = "FLWPhotoPickDemo/FLWPhotoPickDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLWPhotoReader",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1416F09194869D100FD92E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLWPhotoPickDemo/FLWPhotoPickDemo-Prefix.pch";
+				INFOPLIST_FILE = "FLWPhotoPickDemo/FLWPhotoPickDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLWPhotoReader",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1416F0B194869D100FD92E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FLWPhotoPickDemo.app/FLWPhotoPickDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLWPhotoPickDemo/FLWPhotoPickDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FLWPhotoPickDemoTests/FLWPhotoPickDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D1416F0C194869D100FD92E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FLWPhotoPickDemo.app/FLWPhotoPickDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLWPhotoPickDemo/FLWPhotoPickDemo-Prefix.pch";
+				INFOPLIST_FILE = "FLWPhotoPickDemoTests/FLWPhotoPickDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1416ECD194869D100FD92E6 /* Build configuration list for PBXProject "FLWPhotoPickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1416F05194869D100FD92E6 /* Debug */,
+				D1416F06194869D100FD92E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1416F07194869D100FD92E6 /* Build configuration list for PBXNativeTarget "FLWPhotoPickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1416F08194869D100FD92E6 /* Debug */,
+				D1416F09194869D100FD92E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1416F0A194869D100FD92E6 /* Build configuration list for PBXNativeTarget "FLWPhotoPickDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1416F0B194869D100FD92E6 /* Debug */,
+				D1416F0C194869D100FD92E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1416ECA194869D100FD92E6 /* Project object */;
+}
